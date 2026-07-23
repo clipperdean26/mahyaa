@@ -3,586 +3,909 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mahyaa Tour & Travel | Haji & Umroh Premium</title>
+<title>MAHYAA Tour & Travel — Perjalanan Suci Menuju Baitullah</title>
+<meta name="description" content="MAHYAA Tour & Travel — Menghamba dengan Hati, Maqbul dalam Beribadah, Bahagia dalam Kembali. Perjalanan Haji & Umroh premium dengan pendampingan sepenuh hati.">
 
+<!-- ====== Bootstrap 5 ====== -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- ====== Bootstrap Icons ====== -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<!-- ====== Google Fonts: Playfair Display + Inter ====== -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
+<!-- ====== Custom CSS ====== -->
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120" tabindex="0">
 
-<!-- ===================== NAVBAR ===================== -->
-<nav class="navbar navbar-expand-lg navbar-mahyaa" id="mainNav">
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="#beranda">
-      <span class="brand-word">MAHYAA</span>
-      <span class="brand-sub">TOUR &amp; TRAVEL</span>
+      <span class="brand-main">MAHYAA</span>
+      <span class="brand-sub">Tour &amp; Travel</span>
     </a>
-    <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <i class="bi bi-list text-white fs-2"></i>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto align-items-lg-center">
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#beranda">Beranda</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#tentang">Tentang Kami</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#umroh">Paket Umroh</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#haji">Paket Haji</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#layanan">Layanan</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#galeri">Galeri</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#testimoni">Testimoni</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#faq">FAQ</a></li>
-        <li class="nav-item"><a class="nav-link nav-link-mahyaa" href="#kontak">Kontak</a></li>
-        <li class="nav-item ms-lg-3 mt-3 mt-lg-0"><a href="#kontak" class="btn btn-gold">Konsultasi Sekarang</a></li>
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Kami</a></li>
+        <li class="nav-item"><a class="nav-link" href="#paket">Paket Umroh</a></li>
+        <li class="nav-item"><a class="nav-link" href="#paket-haji">Paket Haji</a></li>
+        <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
       </ul>
+      <a href="#kontak" class="btn btn-gold"><i class="bi bi-whatsapp"></i> Konsultasi Sekarang</a>
     </div>
   </div>
 </nav>
 
-<!-- ===================== HERO ===================== -->
+<!-- ============================================================
+     HERO
+     ============================================================ -->
 <section class="hero" id="beranda">
-  <div class="container">
-    <div class="row align-items-center gy-5">
-      <div class="col-lg-7">
-        <p class="hero-eyebrow mb-3 hero-anim d1">Perjalanan Suci Menuju Baitullah</p>
-        <h1 class="mb-4 hero-anim d2">Wujudkan Perjalanan Suci<br>Menuju <span>Baitullah</span></h1>
-        <p class="lead-text mb-4 hero-anim d3">Bersama Mahyaa Tour &amp; Travel, kami mendampingi setiap langkah perjalanan ibadah Anda dengan pelayanan sepenuh hati, persiapan yang matang, dan pengalaman yang bermakna.</p>
-        <div class="d-flex flex-wrap gap-3 hero-anim d4">
-          <a href="#umroh" class="btn btn-gold">Lihat Paket Umroh</a>
-          <a href="#kontak" class="btn btn-outline-cream">Konsultasi Gratis</a>
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7" data-animate>
+        <span class="eyebrow text-light">Perjalanan Suci Menuju Baitullah</span>
+        <h1>Wujudkan Perjalanan Suci <span class="accent">Menuju Baitullah</span></h1>
+        <p class="lead">Bersama Mahyaa Tour &amp; Travel, kami mendampingi setiap langkah perjalanan ibadah Anda dengan pelayanan sepenuh hati, persiapan yang matang, dan pengalaman yang bermakna.</p>
+        <div class="cta-group">
+          <a href="#paket" class="btn btn-gold">Lihat Paket Umroh <i class="bi bi-arrow-right"></i></a>
+          <a href="#kontak" class="btn btn-outline-light">Konsultasi Gratis</a>
         </div>
-        <div class="trust-badge-row d-flex flex-wrap gap-4 hero-anim d5">
-          <span class="trust-badge"><i class="bi bi-patch-check-fill"></i>Pendampingan Profesional</span>
-          <span class="trust-badge"><i class="bi bi-patch-check-fill"></i>Program Terpercaya</span>
-          <span class="trust-badge"><i class="bi bi-patch-check-fill"></i>Pelayanan Sepenuh Hati</span>
-        </div>
+        <ul class="trust-badges">
+          <li><i class="bi bi-check-circle-fill"></i> Pendampingan Profesional</li>
+          <li><i class="bi bi-check-circle-fill"></i> Program Terpercaya</li>
+          <li><i class="bi bi-check-circle-fill"></i> Pelayanan Sepenuh Hati</li>
+        </ul>
       </div>
-      <div class="col-lg-5">
-        <div class="hero-card hero-anim d6">
-          <p class="font-arabic mb-0">لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ</p>
-          <h5>Mulai Perjalanan Ibadah Anda</h5>
-          <p class="mb-0">Bersama Mahyaa Tour &amp; Travel — sahabat perjalanan menuju Tanah Suci, dari niat hingga kembali membawa keberkahan.</p>
+      <div class="col-lg-5" data-animate data-delay="2">
+        <div class="glass-card">
+          <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg" alt="Masjidil Haram" class="main-img">
         </div>
       </div>
     </div>
   </div>
-  <div class="scroll-indicator d-none d-md-flex hero-anim d6">
+  <div class="scroll-indicator">
     <span>Scroll untuk menjelajahi</span>
-    <span class="line"></span>
   </div>
 </section>
 
-<!-- ===================== TRUST / STAT ===================== -->
-<section class="section-pad py-5" style="background:var(--cream); padding-top:4rem !important; padding-bottom:4rem !important;">
+<!-- ============================================================
+     TRUST / STATISTIC
+     ============================================================ -->
+<section class="trust-section" id="layanan">
   <div class="container">
-    <div class="row g-4">
-      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="0">
-        <div class="stat-card"><i class="bi bi-people"></i><h6>Pendampingan Profesional</h6><p>Dari persiapan hingga kepulangan</p></div>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-3" data-animate>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="bi bi-shield-check"></i></div>
+          <h4>Pendampingan Profesional</h4>
+          <p>Tim berpengalaman yang siap membantu Anda sepanjang perjalanan ibadah.</p>
+        </div>
       </div>
-      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="120">
-        <div class="stat-card"><i class="bi bi-map"></i><h6>Program Perjalanan Terencana</h6><p>Jadwal dan itinerary yang matang</p></div>
+      <div class="col-md-6 col-lg-3" data-animate data-delay="1">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="bi bi-calendar2-check"></i></div>
+          <h4>Program Perjalanan Terencana</h4>
+          <p>Jadwal terstruktur dengan detail yang jelas dan terorganisir.</p>
+        </div>
       </div>
-      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="240">
-        <div class="stat-card"><i class="bi bi-heart"></i><h6>Pelayanan Sepenuh Hati</h6><p>Amanah di setiap detail</p></div>
+      <div class="col-md-6 col-lg-3" data-animate data-delay="2">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="bi bi-heart-fill"></i></div>
+          <h4>Pelayanan Sepenuh Hati</h4>
+          <p>Kami mengutamakan kenyamanan dan kekhusyukan ibadah Anda.</p>
+        </div>
       </div>
-      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="360">
-        <div class="stat-card"><i class="bi bi-stars"></i><h6>Perjalanan yang Bermakna</h6><p>Pengalaman spiritual berkesan</p></div>
+      <div class="col-md-6 col-lg-3" data-animate data-delay="3">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="bi bi-stars"></i></div>
+          <h4>Perjalanan yang Bermakna</h4>
+          <p>Pengalaman spiritual yang berkesan sepanjang hayat.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== ABOUT ===================== -->
-<section class="section-pad" id="tentang">
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="about-section" id="tentang">
   <div class="container">
     <div class="row align-items-center g-5">
-      <div class="col-lg-6" data-aos="fade-right">
-        <div class="about-img-wrap">
-          <img src="https://images.unsplash.com/photo-1572251057603-b1e3014c5e67?fm=jpg&q=80&w=1200&auto=format&fit=crop" alt="Masjidil Haram">
-          <div class="about-img-frame"></div>
+      <div class="col-lg-6" data-animate>
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=800&q=80" alt="Masjidil Haram" class="main-img">
+          <div class="about-experience">
+            <span class="exp-num">10+</span>
+            <span class="exp-text">Tahun<br>Mendampingi<br>Jamaah</span>
+          </div>
         </div>
       </div>
-      <div class="col-lg-6" data-aos="fade-left">
-        <p class="eyebrow mb-2">Tentang Mahyaa</p>
-        <h2 class="mb-4">Bukan Sekadar Perjalanan,<br>Ini Adalah Panggilan Ibadah</h2>
-        <p class="mb-4" style="color:#5c665f;">Setiap perjalanan menuju Tanah Suci adalah momen yang begitu berharga. Mahyaa Tour &amp; Travel hadir untuk membersamai Anda dengan sepenuh hati, memberikan pelayanan dan pendampingan terbaik sejak persiapan keberangkatan hingga kembali ke tanah air.</p>
-        <div class="mb-4">
-          <div class="feature-check"><i class="bi bi-check-circle-fill"></i><span>Konsultasi dan persiapan perjalanan</span></div>
-          <div class="feature-check"><i class="bi bi-check-circle-fill"></i><span>Pendampingan sebelum keberangkatan</span></div>
-          <div class="feature-check"><i class="bi bi-check-circle-fill"></i><span>Pembekalan dan manasik</span></div>
-          <div class="feature-check"><i class="bi bi-check-circle-fill"></i><span>Pendampingan selama perjalanan</span></div>
-          <div class="feature-check"><i class="bi bi-check-circle-fill"></i><span>Pelayanan yang amanah dan profesional</span></div>
-        </div>
-        <a href="#layanan" class="btn btn-gold">Kenali Mahyaa Tour</a>
+      <div class="col-lg-6" data-animate data-delay="2">
+        <span class="eyebrow">Tentang Mahyaa Tour</span>
+        <h2 class="section-title">Bukan Sekadar Perjalanan, <span class="accent">Ini Adalah Panggilan Ibadah</span></h2>
+        <p class="about-text">Setiap perjalanan menuju Tanah Suci adalah momen yang begitu berharga. Mahyaa Tour &amp; Travel hadir untuk membersamai Anda dengan sepenuh hati, memberikan pelayanan dan pendampingan terbaik sejak persiapan keberangkatan hingga kembali ke tanah air.</p>
+        <ul class="about-features">
+          <li><i class="bi bi-check2-circle"></i> Konsultasi dan persiapan perjalanan</li>
+          <li><i class="bi bi-check2-circle"></i> Pendampingan sebelum keberangkatan</li>
+          <li><i class="bi bi-check2-circle"></i> Pembekalan dan manasik</li>
+          <li><i class="bi bi-check2-circle"></i> Pendampingan selama perjalanan</li>
+          <li><i class="bi bi-check2-circle"></i> Pelayanan yang amanah dan profesional</li>
+        </ul>
+        <a href="#why" class="btn btn-primary-mahyaa">Kenali Mahyaa Tour <i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== PACKAGES ===================== -->
-<section class="section-pad" id="umroh" style="background:var(--white);">
+<!-- ============================================================
+     PACKAGE
+     ============================================================ -->
+<section class="package-section" id="paket">
   <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <p class="eyebrow mb-2">Program Perjalanan</p>
-      <h2 class="mb-3">Temukan Paket Perjalanan Anda</h2>
-      <div class="divider-gold mb-3"></div>
-      <p class="mx-auto" style="max-width:560px; color:#5c665f;">Pilih program perjalanan ibadah yang sesuai dengan kebutuhan dan rencana Anda.</p>
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Pilihan Program</span>
+      <h2 class="section-title">Temukan Paket <span class="accent">Perjalanan Anda</span></h2>
+      <p class="section-subtitle">Pilih program perjalanan ibadah yang sesuai dengan kebutuhan dan rencana Anda. Semua paket dirancang dengan pelayanan terbaik dan pendampingan profesional.</p>
     </div>
 
-    <div class="filter-tabs d-flex flex-wrap justify-content-center mb-5" data-aos="fade-up">
-      <button class="btn active" data-filter="all">Semua</button>
-      <button class="btn" data-filter="umroh">Umroh</button>
-      <button class="btn" data-filter="haji">Haji</button>
-      <button class="btn" data-filter="plus">Umroh Plus</button>
-      <button class="btn" data-filter="spesial">Program Spesial</button>
+    <div class="filter-tabs" data-animate>
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="umroh">Umroh</button>
+      <button class="filter-btn" data-filter="haji">Haji</button>
+      <button class="filter-btn" data-filter="plus">Umroh Plus</button>
+      <button class="filter-btn" data-filter="spesial">Program Spesial</button>
     </div>
 
     <div class="row g-4" id="packageGrid">
-
-      <div class="col-md-6 col-lg-3 package-item" data-cat="umroh" data-aos="zoom-in" data-aos-delay="0">
+      <!-- Paket 1 -->
+      <div class="col-md-6 col-lg-4 package-card-wrap" data-category="umroh" data-animate>
         <div class="package-card">
-          <div class="package-img">
-            <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=80&w=800&auto=format&fit=crop" alt="Paket Umroh Reguler">
+          <div class="package-image">
+            <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=80&w=800&auto=format&fit=crop" alt="Umroh Reguler">
             <span class="package-label">Umroh</span>
+            <span class="package-duration"><i class="bi bi-clock"></i> 9 Hari</span>
           </div>
           <div class="package-body">
-            <h5>Paket Umroh Reguler</h5>
-            <p class="package-meta" style="font-size:.8rem;">Perjalanan ibadah yang nyaman dan terencana.</p>
-            <p class="package-meta"><i class="bi bi-clock"></i>9 Hari Perjalanan</p>
-            <p class="package-meta"><i class="bi bi-building"></i>Hotel Bintang 4 &middot; Makkah &amp; Madinah</p>
-            <p class="package-meta"><i class="bi bi-airplane"></i>Maskapai Saudia</p>
-            <p class="package-meta mb-3"><i class="bi bi-calendar-event"></i>Jadwal Keberangkatan Berkala</p>
-            <p class="package-price mb-3">Hubungi Kami <small>/ jamaah</small></p>
-            <div class="d-flex gap-2">
-              <a href="#kontak" class="btn btn-sm btn-gold flex-fill">Lihat Detail</a>
-              <a href="#kontak" class="btn btn-sm btn-outline-secondary flex-fill">Konsultasi</a>
+            <h3>Paket Umroh Reguler</h3>
+            <p class="desc">Perjalanan ibadah yang nyaman dan terencana untuk jamaah pertama kali.</p>
+            <ul class="package-info">
+              <li><i class="bi bi-airplane-engines"></i> Maskapai: Saudia Airlines</li>
+              <li><i class="bi bi-building"></i> Hotel ★★★ Bintang</li>
+              <li><i class="bi bi-calendar-event"></i> Keberangkatan: Setiap Bulan</li>
+            </ul>
+            <div class="package-price">
+              <span class="label">Mulai dari</span>
+              <span class="amount">Rp 28,5Jt</span> <span class="per">/ jamaah</span>
+            </div>
+            <div class="package-actions">
+              <a href="#kontak" class="btn btn-outline-gold">Lihat Detail</a>
+              <a href="#kontak" class="btn btn-primary-mahyaa">Konsultasi</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 package-item" data-cat="umroh spesial" data-aos="zoom-in" data-aos-delay="120">
+      <!-- Paket 2 -->
+      <div class="col-md-6 col-lg-4 package-card-wrap" data-category="spesial" data-animate data-delay="1">
         <div class="package-card">
-          <div class="package-img">
-            <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=80&w=800&auto=format&fit=crop" alt="Paket Umroh Ramadhan">
+          <div class="package-image">
+            <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=80&w=800&auto=format&fit=crop" alt="Umroh Ramadhan">
             <span class="package-label">Spesial</span>
+            <span class="package-duration"><i class="bi bi-clock"></i> 12 Hari</span>
           </div>
           <div class="package-body">
-            <h5>Paket Umroh Ramadhan</h5>
-            <p class="package-meta" style="font-size:.8rem;">Rasakan keistimewaan beribadah di bulan suci.</p>
-            <p class="package-meta"><i class="bi bi-clock"></i>12 Hari Perjalanan</p>
-            <p class="package-meta"><i class="bi bi-building"></i>Hotel Bintang 5 &middot; Dekat Masjid</p>
-            <p class="package-meta"><i class="bi bi-airplane"></i>Maskapai Garuda Indonesia</p>
-            <p class="package-meta mb-3"><i class="bi bi-calendar-event"></i>Keberangkatan Bulan Ramadhan</p>
-            <p class="package-price mb-3">Hubungi Kami <small>/ jamaah</small></p>
-            <div class="d-flex gap-2">
-              <a href="#kontak" class="btn btn-sm btn-gold flex-fill">Lihat Detail</a>
-              <a href="#kontak" class="btn btn-sm btn-outline-secondary flex-fill">Konsultasi</a>
+            <h3>Paket Umroh Ramadhan</h3>
+            <p class="desc">Rasakan keistimewaan beribadah di bulan suci Ramadhan di Tanah Suci.</p>
+            <ul class="package-info">
+              <li><i class="bi bi-airplane-engines"></i> Maskapai: Garuda Indonesia</li>
+              <li><i class="bi bi-building"></i> Hotel ★★★★ Bintang</li>
+              <li><i class="bi bi-calendar-event"></i> Keberangkatan: Maret</li>
+            </ul>
+            <div class="package-price">
+              <span class="label">Mulai dari</span>
+              <span class="amount">Rp 38Jt</span> <span class="per">/ jamaah</span>
+            </div>
+            <div class="package-actions">
+              <a href="#kontak" class="btn btn-outline-gold">Lihat Detail</a>
+              <a href="#kontak" class="btn btn-primary-mahyaa">Konsultasi</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 package-item" data-cat="plus umroh" data-aos="zoom-in" data-aos-delay="240">
+      <!-- Paket 3 -->
+      <div class="col-md-6 col-lg-4 package-card-wrap" data-category="plus" data-animate data-delay="2">
         <div class="package-card">
-          <div class="package-img">
-            <img src="https://images.unsplash.com/photo-1572251057603-b1e3014c5e67?fm=jpg&q=80&w=800&auto=format&fit=crop" alt="Paket Umroh Plus">
+          <div class="package-image">
+            <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?w=600&q=80" alt="Umroh Plus">
             <span class="package-label">Umroh Plus</span>
+            <span class="package-duration"><i class="bi bi-clock"></i> 14 Hari</span>
           </div>
           <div class="package-body">
-            <h5>Paket Umroh Plus</h5>
-            <p class="package-meta" style="font-size:.8rem;">Perjalanan ibadah dengan pengalaman tambahan.</p>
-            <p class="package-meta"><i class="bi bi-clock"></i>14 Hari Perjalanan</p>
-            <p class="package-meta"><i class="bi bi-building"></i>Hotel Bintang 5 + Turki / Dubai</p>
-            <p class="package-meta"><i class="bi bi-airplane"></i>Maskapai Turkish Airlines</p>
-            <p class="package-meta mb-3"><i class="bi bi-calendar-event"></i>Jadwal Keberangkatan Berkala</p>
-            <p class="package-price mb-3">Hubungi Kami <small>/ jamaah</small></p>
-            <div class="d-flex gap-2">
-              <a href="#kontak" class="btn btn-sm btn-gold flex-fill">Lihat Detail</a>
-              <a href="#kontak" class="btn btn-sm btn-outline-secondary flex-fill">Konsultasi</a>
+            <h3>Paket Umroh Plus</h3>
+            <p class="desc">Perjalanan ibadah dengan pengalaman tambahan mengunjungi tempat bersejarah.</p>
+            <ul class="package-info">
+              <li><i class="bi bi-airplane-engines"></i> Maskapai: Royal Brunei</li>
+              <li><i class="bi bi-building"></i> Hotel ★★★★ Bintang</li>
+              <li><i class="bi bi-calendar-event"></i> Keberangkatan: April &amp; Mei</li>
+            </ul>
+            <div class="package-price">
+              <span class="label">Mulai dari</span>
+              <span class="amount">Rp 35Jt</span> <span class="per">/ jamaah</span>
+            </div>
+            <div class="package-actions">
+              <a href="#kontak" class="btn btn-outline-gold">Lihat Detail</a>
+              <a href="#kontak" class="btn btn-primary-mahyaa">Konsultasi</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3 package-item" data-cat="haji" id="haji" data-aos="zoom-in" data-aos-delay="360">
-        <div class="package-card">
-          <div class="package-img">
+      <!-- Paket 4 -->
+      <div class="col-md-6 col-lg-4 package-card-wrap" data-category="haji" data-animate>
+        <div class="package-card" id="paket-haji">
+          <div class="package-image">
             <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=80&w=800&auto=format&fit=crop" alt="Paket Haji">
             <span class="package-label">Haji</span>
+            <span class="package-duration"><i class="bi bi-clock"></i> 40 Hari</span>
           </div>
           <div class="package-body">
-            <h5>Paket Haji</h5>
-            <p class="package-meta" style="font-size:.8rem;">Informasi dan pendampingan perjalanan Haji.</p>
-            <p class="package-meta"><i class="bi bi-clock"></i>±40 Hari Perjalanan</p>
-            <p class="package-meta"><i class="bi bi-building"></i>Hotel Terdekat Masjidil Haram</p>
-            <p class="package-meta"><i class="bi bi-airplane"></i>Maskapai Saudia</p>
-            <p class="package-meta mb-3"><i class="bi bi-calendar-event"></i>Sesuai Musim Haji</p>
-            <p class="package-price mb-3">Hubungi Kami <small>/ jamaah</small></p>
-            <div class="d-flex gap-2">
-              <a href="#kontak" class="btn btn-sm btn-gold flex-fill">Lihat Detail</a>
-              <a href="#kontak" class="btn btn-sm btn-outline-secondary flex-fill">Konsultasi</a>
+            <h3>Paket Haji Khusus</h3>
+            <p class="desc">Informasi dan pendampingan menyeluruh untuk perjalanan Haji Anda.</p>
+            <ul class="package-info">
+              <li><i class="bi bi-airplane-engines"></i> Maskapai: Saudia Airlines</li>
+              <li><i class="bi bi-building"></i> Hotel ★★★★★ Bintang</li>
+              <li><i class="bi bi-calendar-event"></i> Sesuai Jadwal Pemerintah</li>
+            </ul>
+            <div class="package-price">
+              <span class="label">Mulai dari</span>
+              <span class="amount">Rp 45Jt</span> <span class="per">/ jamaah</span>
+            </div>
+            <div class="package-actions">
+              <a href="#kontak" class="btn btn-outline-gold">Lihat Detail</a>
+              <a href="#kontak" class="btn btn-primary-mahyaa">Konsultasi</a>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- Paket 5 -->
+      <div class="col-md-6 col-lg-4 package-card-wrap" data-category="umroh" data-animate data-delay="1">
+        <div class="package-card">
+          <div class="package-image">
+            <img src="https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=600&q=80" alt="Umroh Premium">
+            <span class="package-label">Umroh</span>
+            <span class="package-duration"><i class="bi bi-clock"></i> 10 Hari</span>
+          </div>
+          <div class="package-body">
+            <h3>Umroh Premium Eksekutif</h3>
+            <p class="desc">Layanan eksklusif dengan akomodasi premium dan fasilitas lengkap.</p>
+            <ul class="package-info">
+              <li><i class="bi bi-airplane-engines"></i> Maskapai: Garuda Bisnis</li>
+              <li><i class="bi bi-building"></i> Hotel ★★★★★ Bintang</li>
+              <li><i class="bi bi-calendar-event"></i> Setiap Bulan</li>
+            </ul>
+            <div class="package-price">
+              <span class="label">Mulai dari</span>
+              <span class="amount">Rp 45Jt</span> <span class="per">/ jamaah</span>
+            </div>
+            <div class="package-actions">
+              <a href="#kontak" class="btn btn-outline-gold">Lihat Detail</a>
+              <a href="#kontak" class="btn btn-primary-mahyaa">Konsultasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paket 6 -->
+      <div class="col-md-6 col-lg-4 package-card-wrap" data-category="plus" data-animate data-delay="2">
+        <div class="package-card">
+          <div class="package-image">
+            <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=70&w=600&auto=format&fit=crop" alt="Umroh Plus Turki">
+            <span class="package-label">Umroh Plus</span>
+            <span class="package-duration"><i class="bi bi-clock"></i> 16 Hari</span>
+          </div>
+          <div class="package-body">
+            <h3>Umroh Plus Turki</h3>
+            <p class="desc">Perjalanan ibadah dengan kunjungan ke wisata Islami di Turki.</p>
+            <ul class="package-info">
+              <li><i class="bi bi-airplane-engines"></i> Maskapai: Turkish Airlines</li>
+              <li><i class="bi bi-building"></i> Hotel ★★★★ Bintang</li>
+              <li><i class="bi bi-calendar-event"></i> Juni &amp; Juli</li>
+            </ul>
+            <div class="package-price">
+              <span class="label">Mulai dari</span>
+              <span class="amount">Rp 42Jt</span> <span class="per">/ jamaah</span>
+            </div>
+            <div class="package-actions">
+              <a href="#kontak" class="btn btn-outline-gold">Lihat Detail</a>
+              <a href="#kontak" class="btn btn-primary-mahyaa">Konsultasi</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== WHY MAHYAA ===================== -->
-<section class="section-pad" id="layanan" style="background:var(--cream);">
+<!-- ============================================================
+     WHY MAHYAA
+     ============================================================ -->
+<section class="why-section" id="why">
   <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <p class="eyebrow mb-2">Keunggulan Kami</p>
-      <h2 class="mb-3">Mengapa Memilih Mahyaa Tour?</h2>
-      <div class="divider-gold"></div>
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Keunggulan Kami</span>
+      <h2 class="section-title">Mengapa Memilih <span class="accent">Mahyaa Tour?</span></h2>
+      <p class="section-subtitle">Kami berkomitmen memberikan pelayanan terbaik untuk perjalanan ibadah Anda dengan sepenuh hati.</p>
     </div>
+
     <div class="row g-4">
-      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="0">
-        <div class="why-card"><span class="why-num">01</span><h5>Pendampingan Sepenuh Hati</h5><p>Kami hadir mendampingi perjalanan ibadah Anda.</p></div>
+      <div class="col-md-6 col-lg-4" data-animate>
+        <div class="why-card">
+          <span class="why-num">01</span>
+          <div class="why-icon"><i class="bi bi-heart-fill"></i></div>
+          <h4>Pendampingan Sepenuh Hati</h4>
+          <p>Kami hadir mendampingi perjalanan ibadah Anda dengan pelayanan yang tulus dan perhatian penuh.</p>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="100">
-        <div class="why-card"><span class="why-num">02</span><h5>Persiapan yang Terarah</h5><p>Membantu Anda mempersiapkan perjalanan dengan lebih baik.</p></div>
+      <div class="col-md-6 col-lg-4" data-animate data-delay="1">
+        <div class="why-card">
+          <span class="why-num">02</span>
+          <div class="why-icon"><i class="bi bi-clipboard-check"></i></div>
+          <h4>Persiapan yang Terarah</h4>
+          <p>Membantu Anda mempersiapkan perjalanan dengan lebih baik dan terstruktur.</p>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="200">
-        <div class="why-card"><span class="why-num">03</span><h5>Pembekalan &amp; Manasik</h5><p>Persiapan ilmu dan teknis sebelum keberangkatan.</p></div>
+      <div class="col-md-6 col-lg-4" data-animate data-delay="2">
+        <div class="why-card">
+          <span class="why-num">03</span>
+          <div class="why-icon"><i class="bi bi-book"></i></div>
+          <h4>Pembekalan &amp; Manasik</h4>
+          <p>Persiapan ilmu dan teknis sebelum keberangkatan agar ibadah lebih khusyuk.</p>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="0">
-        <div class="why-card"><span class="why-num">04</span><h5>Pelayanan Profesional</h5><p>Memberikan pelayanan dengan amanah dan penuh perhatian.</p></div>
+      <div class="col-md-6 col-lg-4" data-animate>
+        <div class="why-card">
+          <span class="why-num">04</span>
+          <div class="why-icon"><i class="bi bi-award"></i></div>
+          <h4>Pelayanan Profesional</h4>
+          <p>Memberikan pelayanan dengan amanah dan penuh perhatian kepada setiap jamaah.</p>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="100">
-        <div class="why-card"><span class="why-num">05</span><h5>Perjalanan yang Nyaman</h5><p>Membantu jamaah menjalani perjalanan dengan lebih tenang.</p></div>
+      <div class="col-md-6 col-lg-4" data-animate data-delay="1">
+        <div class="why-card">
+          <span class="why-num">05</span>
+          <div class="why-icon"><i class="bi bi-house-heart"></i></div>
+          <h4>Perjalanan yang Nyaman</h4>
+          <p>Membantu jamaah menjalani perjalanan dengan lebih tenang dan nyaman.</p>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="200">
-        <div class="why-card"><span class="why-num">06</span><h5>Pengalaman yang Bermakna</h5><p>Menghadirkan pengalaman perjalanan spiritual yang berkesan.</p></div>
+      <div class="col-md-6 col-lg-4" data-animate data-delay="2">
+        <div class="why-card">
+          <span class="why-num">06</span>
+          <div class="why-icon"><i class="bi bi-stars"></i></div>
+          <h4>Pengalaman yang Bermakna</h4>
+          <p>Menghadirkan pengalaman perjalanan spiritual yang berkesan sepanjang hayat.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== JOURNEY PROCESS ===================== -->
-<section class="section-pad" style="background:var(--white);">
+<!-- ============================================================
+     JOURNEY TIMELINE
+     ============================================================ -->
+<section class="journey-section">
   <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <p class="eyebrow mb-2">Alur Perjalanan</p>
-      <h2 class="mb-3">Lima Langkah Menuju Perjalanan Suci</h2>
-      <div class="divider-gold"></div>
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Proses Perjalanan</span>
+      <h2 class="section-title">Lima Langkah Menuju <span class="accent">Perjalanan Suci</span></h2>
+      <p class="section-subtitle text-cream" style="color: rgba(255,255,255,0.7);">Setiap langkah kami rancang dengan teliti, agar perjalanan ibadah Anda berjalan khidmat dan penuh makna.</p>
     </div>
-    <div class="timeline-wrap position-relative">
-      <div class="timeline-line d-none d-md-block"></div>
-      <div class="row">
-        <div class="col-md col-12 timeline-step" data-aos="fade-up" data-aos-delay="0"><div class="timeline-dot">01</div><h6>Konsultasi</h6><p>Diskusikan rencana perjalanan ibadah Anda.</p></div>
-        <div class="col-md col-12 timeline-step" data-aos="fade-up" data-aos-delay="100"><div class="timeline-dot">02</div><h6>Pilih Program</h6><p>Pilih paket yang sesuai dengan kebutuhan.</p></div>
-        <div class="col-md col-12 timeline-step" data-aos="fade-up" data-aos-delay="200"><div class="timeline-dot">03</div><h6>Persiapan &amp; Manasik</h6><p>Persiapkan diri secara ilmu dan teknis.</p></div>
-        <div class="col-md col-12 timeline-step" data-aos="fade-up" data-aos-delay="300"><div class="timeline-dot">04</div><h6>Berangkat ke Tanah Suci</h6><p>Nikmati perjalanan dengan pendampingan Mahyaa Tour.</p></div>
-        <div class="col-md col-12 timeline-step" data-aos="fade-up" data-aos-delay="400"><div class="timeline-dot">05</div><h6>Pulang Membawa Keberkahan</h6><p>Kembali dengan pengalaman dan kenangan yang bermakna.</p></div>
+
+    <div class="journey-wrap" data-animate>
+      <div class="journey-line"></div>
+      <div class="row g-4">
+        <div class="col-lg col-md-6">
+          <div class="journey-step">
+            <div class="step-num">STEP 01</div>
+            <div class="step-icon"><i class="bi bi-chat-dots"></i></div>
+            <h4>Konsultasi</h4>
+            <p>Diskusikan rencana perjalanan ibadah Anda bersama tim kami.</p>
+          </div>
+        </div>
+        <div class="col-lg col-md-6">
+          <div class="journey-step">
+            <div class="step-num">STEP 02</div>
+            <div class="step-icon"><i class="bi bi-list-check"></i></div>
+            <h4>Pilih Program</h4>
+            <p>Pilih paket yang sesuai dengan kebutuhan dan keinginan Anda.</p>
+          </div>
+        </div>
+        <div class="col-lg col-md-6">
+          <div class="journey-step">
+            <div class="step-num">STEP 03</div>
+            <div class="step-icon"><i class="bi bi-journal-bookmark"></i></div>
+            <h4>Persiapan &amp; Manasik</h4>
+            <p>Persiapkan diri secara ilmu dan teknis sebelum berangkat.</p>
+          </div>
+        </div>
+        <div class="col-lg col-md-6">
+          <div class="journey-step">
+            <div class="step-num">STEP 04</div>
+            <div class="step-icon"><i class="bi bi-airplane"></i></div>
+            <h4>Berangkat ke Tanah Suci</h4>
+            <p>Nikmati perjalanan dengan pendampingan tim Mahyaa Tour.</p>
+          </div>
+        </div>
+        <div class="col-lg col-md-6">
+          <div class="journey-step">
+            <div class="step-num">STEP 05</div>
+            <div class="step-icon"><i class="bi bi-house-heart-fill"></i></div>
+            <h4>Pulang Membawa Keberkahan</h4>
+            <p>Kembali dengan pengalaman dan kenangan yang bermakna.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== VIDEO / SPIRITUAL EXPERIENCE ===================== -->
+<!-- ============================================================
+     VIDEO / SPIRITUAL
+     ============================================================ -->
 <section class="video-section">
-  <div class="container">
-    <h2 data-aos="fade-up">Setiap langkah menuju Baitullah<br>adalah sebuah perjalanan hati.</h2>
-    <a href="#" class="play-btn d-inline-flex" data-bs-toggle="modal" data-bs-target="#videoModal" data-aos="fade-up">
+  <div class="video-bg"></div>
+  <div class="video-overlay"></div>
+  <div class="video-content" data-animate>
+    <button class="play-btn" data-bs-toggle="modal" onclick="window.open('https://www.youtube.com/watch?v=pTkBHi5FO34','_blank')">
       <i class="bi bi-play-fill"></i>
-    </a>
-    <p data-aos="fade-up" style="letter-spacing:.15em; font-size:.78rem; text-transform:uppercase; color:var(--gold-light);">Lihat Perjalanan Jamaah</p>
+    </button>
+    <h2>“Setiap langkah menuju Baitullah <span class="gold">adalah sebuah perjalanan hati.”</span></h2>
+    <span class="play-text">Lihat Perjalanan Jamaah</span>
   </div>
 </section>
 
 <!-- Video Modal -->
-<div class="modal fade" id="videoModal" tabindex="-1">
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark border-0">
-      <div class="modal-header border-0">
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body p-0">
-        <div class="ratio ratio-16x9">
-          <iframe id="ytFrame" src="" title="Perjalanan Jamaah Mahyaa Tour" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+    <div class="modal-content" style="background: transparent; border: none;">
+      <div class="ratio ratio-16x9">
+        <iframe id="videoFrame" src="" allowfullscreen allow="autoplay"></iframe>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ===================== GALLERY ===================== -->
-<section class="section-pad" id="galeri" style="background:var(--cream);">
+<!-- ============================================================
+     GALLERY
+     ============================================================ -->
+<section class="gallery-section" id="galeri">
   <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <p class="eyebrow mb-2">Dokumentasi</p>
-      <h2 class="mb-3">Jejak Perjalanan Bersama Mahyaa</h2>
-      <div class="divider-gold"></div>
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Galeri</span>
+      <h2 class="section-title">Jejak Perjalanan <span class="accent">Bersama Mahyaa</span></h2>
+      <p class="section-subtitle">Momen-momen berharga yang kami abadikan bersama jamaah dalam setiap perjalanan suci.</p>
     </div>
-    <div class="row g-3">
-      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="0">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imgModal" data-img="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=85&w=1400&auto=format&fit=crop" data-caption="Masjidil Haram">
-          <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=70&w=600&auto=format&fit=crop" alt="Masjidil Haram">
-          <div class="gallery-overlay">Lihat Foto</div>
+
+    <div class="gallery-grid" data-animate>
+      <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-img="https://images.unsplash.com/photo-1605235186583-5c786c6b9c6f?w=1200&q=80" data-title="Masjidil Haram">
+        <img src="https://images.unsplash.com/photo-1605235186583-5c786c6b9c6f?w=600&q=80" alt="Masjidil Haram">
+        <div class="gallery-overlay">
+          <span class="cat">Mekkah</span>
+          <span class="title">Masjidil Haram</span>
+          <span class="view"><i class="bi bi-zoom-in"></i> Lihat Foto</span>
         </div>
       </div>
-      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="80">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imgModal" data-img="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=85&w=1400&auto=format&fit=crop" data-caption="Masjid Nabawi">
-          <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=70&w=600&auto=format&fit=crop" alt="Masjid Nabawi">
-          <div class="gallery-overlay">Lihat Foto</div>
+      <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-img="https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=1200&q=80" data-title="Masjid Nabawi">
+        <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=600&q=80" alt="Masjid Nabawi">
+        <div class="gallery-overlay">
+          <span class="cat">Madinah</span>
+          <span class="title">Masjid Nabawi</span>
+          <span class="view"><i class="bi bi-zoom-in"></i> Lihat Foto</span>
         </div>
       </div>
-      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="160">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imgModal" data-img="https://images.unsplash.com/photo-1572251057603-b1e3014c5e67?fm=jpg&q=85&w=1400&auto=format&fit=crop" data-caption="Jamaah Umroh">
-          <img src="https://images.unsplash.com/photo-1572251057603-b1e3014c5e67?fm=jpg&q=70&w=600&auto=format&fit=crop" alt="Jamaah Umroh">
-          <div class="gallery-overlay">Lihat Foto</div>
+      <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-img="https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=1200&q=80" data-title="Jamaah Umroh">
+        <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=70&w=600&auto=format&fit=crop" alt="Jamaah Umroh">
+        <div class="gallery-overlay">
+          <span class="cat">Jamaah</span>
+          <span class="title">Khusyuk Beribadah</span>
+          <span class="view"><i class="bi bi-zoom-in"></i> Lihat Foto</span>
         </div>
       </div>
-      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="0">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imgModal" data-img="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=85&w=1400&auto=format&fit=crop&sat=-100" data-caption="Manasik">
-          <img src="https://images.unsplash.com/photo-1553755088-ef1973c7b4a1?fm=jpg&q=70&w=600&auto=format&fit=crop&sat=-100" alt="Manasik">
-          <div class="gallery-overlay">Lihat Foto</div>
+      <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-img="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1200&q=80" data-title="Ka'bah">
+        <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=70&w=600&auto=format&fit=crop" alt="Ka'bah">
+        <div class="gallery-overlay">
+          <span class="cat">Mekkah</span>
+          <span class="title">Ka'bah</span>
+          <span class="view"><i class="bi bi-zoom-in"></i> Lihat Foto</span>
         </div>
       </div>
-      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="80">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imgModal" data-img="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=85&w=1400&auto=format&fit=crop&sat=-40" data-caption="Keberangkatan">
-          <img src="https://images.unsplash.com/photo-1513072064285-240f87fa81e8?fm=jpg&q=70&w=600&auto=format&fit=crop&sat=-40" alt="Keberangkatan">
-          <div class="gallery-overlay">Lihat Foto</div>
+      <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-img="https://images.unsplash.com/photo-1519817650390-64a93db51149?w=1200&q=80" data-title="Manasik">
+        <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?w=600&q=80" alt="Manasik">
+        <div class="gallery-overlay">
+          <span class="cat">Persiapan</span>
+          <span class="title">Pembekalan Manasik</span>
+          <span class="view"><i class="bi bi-zoom-in"></i> Lihat Foto</span>
         </div>
       </div>
-      <div class="col-6 col-lg-4" data-aos="zoom-in" data-aos-delay="160">
-        <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imgModal" data-img="https://images.unsplash.com/photo-1572251057603-b1e3014c5e67?fm=jpg&q=85&w=1400&auto=format&fit=crop&sat=-40" data-caption="Kebersamaan Jamaah">
-          <img src="https://images.unsplash.com/photo-1572251057603-b1e3014c5e67?fm=jpg&q=70&w=600&auto=format&fit=crop&sat=-40" alt="Kebersamaan Jamaah">
-          <div class="gallery-overlay">Lihat Foto</div>
+      <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-img="https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=1200&q=80" data-title="Suasana Spiritual">
+        <img src="https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=600&q=80" alt="Suasana Spiritual">
+        <div class="gallery-overlay">
+          <span class="cat">Kebersamaan</span>
+          <span class="title">Suasana Spiritual</span>
+          <span class="view"><i class="bi bi-zoom-in"></i> Lihat Foto</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Image Modal -->
-<div class="modal fade" id="imgModal" tabindex="-1">
+<!-- Gallery Modal -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-dark border-0">
-      <div class="modal-header border-0">
-        <h6 class="modal-title text-gold" id="imgModalCaption"></h6>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body p-0 text-center">
-        <img id="imgModalPic" src="" class="img-fluid" alt="Galeri Mahyaa">
-      </div>
+    <div class="modal-content" style="background: transparent; border: none;">
+      <img id="galleryImg" src="" alt="" style="width: 100%; border-radius: 8px;">
     </div>
   </div>
 </div>
 
-<!-- ===================== TESTIMONIAL ===================== -->
-<section class="section-pad" id="testimoni" style="background:var(--white);">
+<!-- ============================================================
+     TESTIMONIAL
+     ============================================================ -->
+<section class="testimonial-section" id="testimoni">
   <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <p class="eyebrow mb-2">Testimoni Jamaah</p>
-      <h2 class="mb-3">Kisah Mereka dalam Perjalanan Suci</h2>
-      <div class="divider-gold"></div>
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Testimoni</span>
+      <h2 class="section-title">Kisah Mereka dalam <span class="accent">Perjalanan Suci</span></h2>
+      <p class="section-subtitle">Cerita inspiratif dari jamaah yang telah kami dampingi dalam perjalanan ibadahnya.</p>
     </div>
 
-    <div id="testiCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel" data-bs-interval="6000">
       <div class="carousel-inner">
-
         <div class="carousel-item active">
-          <div class="testi-card">
-            <div class="testi-quote">&rdquo;</div>
-            <p class="testi-text">Alhamdulillah, perjalanan bersama Mahyaa Tour memberikan rasa tenang sejak persiapan hingga kembali ke tanah air. Pelayanannya sangat membantu dan pendampingannya sangat baik.</p>
-            <div class="testi-stars mb-2">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          <div class="testimonial-card">
+            <div class="quote-mark">”</div>
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">Alhamdulillah, perjalanan bersama Mahyaa Tour memberikan rasa tenang sejak persiapan hingga kembali ke tanah air. Pelayanannya sangat membantu dan pendampingannya sangat baik.</p>
+            <div class="testimonial-author">
+              <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Hj. Siti Aminah">
+              <div class="info">
+                <h5>Hj. Siti Aminah</h5>
+                <span class="meta">Jakarta <span class="dot">•</span> Umroh Reguler</span>
+              </div>
             </div>
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fm=jpg&q=80&w=200&auto=format&fit=crop&crop=faces" class="testi-avatar mb-2" alt="Jamaah">
-            <h6 class="mb-0" style="font-family:var(--font-head); color:var(--primary);">Hj. Siti Aminah</h6>
-            <p class="mb-0" style="font-size:.78rem; color:#8a938e;">Malang &middot; Paket Umroh Reguler</p>
           </div>
         </div>
-
         <div class="carousel-item">
-          <div class="testi-card">
-            <div class="testi-quote">&rdquo;</div>
-            <p class="testi-text">Pembekalan manasik sebelum berangkat sangat membantu kami merasa siap. Tim Mahyaa Tour sabar menjawab setiap pertanyaan jamaah, terasa sekali keamanahannya.</p>
-            <div class="testi-stars mb-2">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          <div class="testimonial-card">
+            <div class="quote-mark">”</div>
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">Pengalaman ibadah yang sangat berkesan. Pembekalan manasiknya sangat membantu, dan pendampingan selama di Tanah Suci membuat kami lebih khusyuk dalam beribadah.</p>
+            <div class="testimonial-author">
+              <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="H. Ahmad Fauzi">
+              <div class="info">
+                <h5>H. Ahmad Fauzi</h5>
+                <span class="meta">Bandung <span class="dot">•</span> Umroh Plus</span>
+              </div>
             </div>
-            <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?fm=jpg&q=80&w=200&auto=format&fit=crop&crop=faces" class="testi-avatar mb-2" alt="Jamaah">
-            <h6 class="mb-0" style="font-family:var(--font-head); color:var(--primary);">H. Ahmad Fauzi</h6>
-            <p class="mb-0" style="font-size:.78rem; color:#8a938e;">Surabaya &middot; Paket Umroh Plus</p>
           </div>
         </div>
-
         <div class="carousel-item">
-          <div class="testi-card">
-            <div class="testi-quote">&rdquo;</div>
-            <p class="testi-text">Perjalanan Umroh Ramadhan bersama keluarga terasa begitu berkesan. Hotel dekat Masjidil Haram, jadwal rapi, dan pendampingnya selalu siaga membantu.</p>
-            <div class="testi-stars mb-2">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          <div class="testimonial-card">
+            <div class="quote-mark">”</div>
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">Ramadhan di Tanah Suci adalah impian yang akhirnya terwujud. Terima kasih Mahyaa Tour atas pelayanan yang amanah dan profesional. Sangat direkomendasikan!</p>
+            <div class="testimonial-author">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Fatimah Zahra">
+              <div class="info">
+                <h5>Fatimah Zahra</h5>
+                <span class="meta">Surabaya <span class="dot">•</span> Umroh Ramadhan</span>
+              </div>
             </div>
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?fm=jpg&q=80&w=200&auto=format&fit=crop&crop=faces" class="testi-avatar mb-2" alt="Jamaah">
-            <h6 class="mb-0" style="font-family:var(--font-head); color:var(--primary);">Hj. Nur Laila</h6>
-            <p class="mb-0" style="font-size:.78rem; color:#8a938e;">Malang &middot; Paket Umroh Ramadhan</p>
           </div>
         </div>
-
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#testiCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testiCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+      <div class="carousel-controls">
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== PARTNERS ===================== -->
-<section class="py-5" style="background:var(--cream);">
+<!-- ============================================================
+     PARTNERS
+     ============================================================ -->
+<section class="partners-section">
   <div class="container">
-    <p class="text-center eyebrow mb-4" data-aos="fade-up">Dipercaya oleh Partner Perjalanan</p>
-    <div class="row row-cols-2 row-cols-md-4 g-4 align-items-center justify-content-center text-center" data-aos="fade-up">
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Garuda Indonesia</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Saudia</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Royal Brunei</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">BSI</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Albaik</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Haramain</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Le M&eacute;ridien</span></div>
-      <div class="col"><span class="partner-logo d-inline-block fw-bold" style="font-family:var(--font-head); font-size:1.1rem; color:var(--dark);">Anjum</span></div>
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Mitra Perjalanan</span>
+      <h2 class="section-title">Dipercaya oleh <span class="accent">Partner Perjalanan</span></h2>
     </div>
-  </div>
-</section>
 
-<!-- ===================== FAQ ===================== -->
-<section class="section-pad" id="faq" style="background:var(--white);">
-  <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <p class="eyebrow mb-2">Pertanyaan Umum</p>
-      <h2 class="mb-3">Frequently Asked Questions</h2>
-      <div class="divider-gold"></div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-9">
-        <div class="accordion accordion-mahyaa" id="faqAccordion">
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq1">Bagaimana cara mendaftar Umroh?</button></h2>
-            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Anda dapat menghubungi tim Mahyaa Tour melalui WhatsApp atau formulir konsultasi di website ini. Tim kami akan membantu memilih paket, menjelaskan persyaratan, dan mendampingi proses pendaftaran hingga selesai.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">Apa saja persyaratan untuk Umroh?</button></h2>
-            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Secara umum dibutuhkan paspor yang masih berlaku, pas foto, kartu vaksinasi meningitis, dan dokumen pendukung lainnya. Tim kami akan menjelaskan persyaratan lengkap sesuai paket yang dipilih.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">Apakah tersedia konsultasi sebelum mendaftar?</button></h2>
-            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Tentu. Kami menyediakan sesi konsultasi gratis untuk membantu Anda memahami program, jadwal, dan persiapan perjalanan sebelum memutuskan mendaftar.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">Apakah tersedia program Umroh Ramadhan?</button></h2>
-            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Ya, Mahyaa Tour menghadirkan paket Umroh Ramadhan khusus dengan jadwal keberangkatan pada bulan suci Ramadhan. Kuota terbatas, sehingga disarankan mendaftar lebih awal.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">Bagaimana proses manasik?</button></h2>
-            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Manasik dilaksanakan sebelum keberangkatan sebagai pembekalan ilmu dan praktik ibadah Umroh maupun Haji, agar jamaah lebih siap dan tenang selama perjalanan.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq6">Apa saja yang termasuk dalam paket Umroh?</button></h2>
-            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Paket umumnya mencakup tiket pesawat, akomodasi hotel, transportasi selama di Tanah Suci, pembimbing ibadah, manasik, dan pendampingan penuh dari keberangkatan hingga kepulangan.</div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq7">Bagaimana cara mendapatkan informasi jadwal keberangkatan?</button></h2>
-            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body" style="color:#5c665f; font-size:.9rem;">Jadwal keberangkatan terbaru dapat Anda tanyakan langsung melalui WhatsApp atau form konsultasi kami, sehingga informasi yang diberikan selalu sesuai dan terkini.</div>
-            </div>
-          </div>
-
+    <div class="row g-3 mt-4" data-animate>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="partner-logo">
+          <i class="bi bi-airplane-engines-fill"></i>
+          <span class="name">Garuda</span>
+          <span class="industry">Indonesia</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="partner-logo">
+          <i class="bi bi-airplane-fill"></i>
+          <span class="name">Saudia</span>
+          <span class="industry">Airlines</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="partner-logo">
+          <i class="bi bi-airplane"></i>
+          <span class="name">Royal Brunei</span>
+          <span class="industry">Airlines</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="partner-logo">
+          <i class="bi bi-bank"></i>
+          <span class="name">BSI</span>
+          <span class="industry">Bank Syariah</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="partner-logo">
+          <i class="bi bi-cup-hot"></i>
+          <span class="name">Albaik</span>
+          <span class="industry">Food</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="partner-logo">
+          <i class="bi bi-train-front"></i>
+          <span class="name">Haramain</span>
+          <span class="industry">Express</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="partner-logo">
+          <i class="bi bi-building-fill"></i>
+          <span class="name">Le Méridien</span>
+          <span class="industry">Hotel</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="partner-logo">
+          <i class="bi bi-building-fill-gear"></i>
+          <span class="name">Anjum</span>
+          <span class="industry">Hotel Mekkah</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== CTA ===================== -->
-<section class="section-pad cta-section" id="kontak">
-  <div class="container position-relative" style="z-index:2;">
-    <p class="font-arabic mb-3" style="color:var(--gold-light); font-size:1.4rem;" data-aos="fade-up">لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ</p>
-    <h2 class="mb-3" data-aos="fade-up">Sudah Siap Menjawab Panggilan-Nya?</h2>
-    <p class="mb-4 mx-auto" style="max-width:520px; color:rgba(248,245,237,.8);" data-aos="fade-up">Mulai persiapkan perjalanan ibadah Anda bersama Mahyaa Tour &amp; Travel.</p>
-    <div class="d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up">
-      <a href="#" class="btn btn-gold">Konsultasi Sekarang</a>
-      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-whatsapp"><i class="bi bi-whatsapp me-2"></i>Chat via WhatsApp</a>
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="text-center" data-animate>
+      <span class="eyebrow center">Pertanyaan</span>
+      <h2 class="section-title">Pertanyaan yang <span class="accent">Sering Diajukan</span></h2>
+      <p class="section-subtitle">Temukan jawaban atas pertanyaan umum seputar perjalanan ibadah bersama Mahyaa Tour.</p>
+    </div>
+
+    <div class="faq-wrap" data-animate>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              Bagaimana cara mendaftar Umroh?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Anda dapat mendaftar dengan mengisi formulir konsultasi di website kami, menghubungi tim WhatsApp, atau datang langsung ke kantor kami. Tim konsultan akan membantu Anda memilih paket yang sesuai dan melengkapi semua dokumen pendaftaran.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+              Apa saja persyaratan untuk Umroh?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Persyaratan utama meliputi: Paspor dengan masa berlaku minimal 6 bulan, KTP, KK, akte kelahiran, pas foto, surat keterangan sehat, dan vaksin meningitis. Tim kami akan membantu Anda menyiapkan semua dokumen tersebut.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+              Apakah tersedia konsultasi sebelum mendaftar?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Tentu saja. Kami menyediakan konsultasi gratis tanpa komitmen. Tim konsultan profesional kami akan menjelaskan semua pilihan paket, persiapan, dan menjawab semua pertanyaan Anda sebelum memutuskan mendaftar.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+              Apakah tersedia program Umroh Ramadhan?
+            </button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Ya, kami menyediakan Paket Umroh Ramadhan khusus dengan keberangkatan terjadwal. Paket ini sangat dimininati karena keutamaan ibadah di bulan suci Ramadhan. Kami sarankan mendaftar jauh hari karena kuota terbatas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+              Bagaimana proses manasik?
+            </button>
+          </h2>
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Manasik dilakukan sebelum keberangkatan dalam beberapa pertemuan. Materi mencakup tata cara ibadah umroh/haji, doa-doa, tatacara tawaf dan sa'i, serta simulasi praktik. Pembimbing spiritual berpengalaman akan memandu setiap sesi.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+              Apa saja yang termasuk dalam paket Umroh?
+            </button>
+          </h2>
+          <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Paket standar meliputi: tiket pesawat PP, akomodasi hotel di Mekkah dan Madinah, visa Umroh, transportasi darat antar kota, makan 3x sehari, pembimbing/ibroh, asuransi, ziarah, manasik, dan perlengkapan jamaah. Detail lengkap dapat dilihat pada setiap paket.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+              Bagaimana cara mendapatkan informasi jadwal keberangkatan?
+            </button>
+          </h2>
+          <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Jadwal keberangkatan dapat dilihat di halaman paket di website kami, atau Anda dapat menghubungi tim konsultan via WhatsApp untuk informasi terbaru. Kami juga aktif mengumumkan jadwal baru melalui media sosial kami.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===================== FOOTER ===================== -->
-<footer class="pt-5 pb-4">
+<!-- ============================================================
+     CTA SECTION
+     ============================================================ -->
+<section class="cta-section" id="kontak">
+  <div class="container">
+    <div class="cta-content" data-animate>
+      <span class="eyebrow center" style="color: var(--gold-light);">Mulai Perjalanan Anda</span>
+      <h2>Sudah Siap Menjawab <span class="gold">Panggilan-Nya?</span></h2>
+      <p>Mulai persiapkan perjalanan ibadah Anda bersama Mahyaa Tour &amp; Travel. Tim konsultan kami siap mendampingi setiap langkah Anda.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/6281234567890?text=Assalamualaikum,%20saya%20ingin%20konsultasi%20perjalanan%20Umroh/Haji" class="btn btn-gold" target="_blank">
+          <i class="bi bi-whatsapp"></i> Konsultasi Sekarang
+        </a>
+        <a href="https://wa.me/6281234567890" class="btn btn-whatsapp" target="_blank">
+          <i class="bi bi-chat-dots"></i> Chat WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
   <div class="container">
     <div class="row g-4">
-      <div class="col-lg-4">
-        <span class="brand-word d-block mb-1">MAHYAA</span>
-        <span class="brand-sub d-block mb-3">TOUR &amp; TRAVEL</span>
-        <p style="font-size:.85rem; max-width:320px;">Menghamba dengan Hati, Maqbul dalam Beribadah, Bahagia dalam Kembali. Sahabat perjalanan ibadah Anda menuju Tanah Suci.</p>
-        <div class="mt-3">
-          <a href="#" class="social-circle"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="social-circle"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="social-circle"><i class="bi bi-youtube"></i></a>
-          <a href="#" class="social-circle"><i class="bi bi-whatsapp"></i></a>
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-brand">
+          <span class="brand-main">MAHYAA</span>
+          <span class="brand-sub">Tour &amp; Travel</span>
+        </div>
+        <p class="footer-tagline">Menghamba dengan Hati, Maqbul dalam Beribadah, Bahagia dalam Kembali.</p>
+        <p class="footer-desc">Mendampingi setiap langkah perjalanan ibadah Anda dengan pelayanan sepenuh hati, profesional, dan amanah.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
-      <div class="col-6 col-lg-2">
-        <h6>Navigasi</h6>
-        <div class="d-flex flex-column gap-2">
-          <a href="#tentang">Tentang Kami</a>
-          <a href="#umroh">Paket Umroh</a>
-          <a href="#haji">Paket Haji</a>
-          <a href="#galeri">Galeri</a>
-        </div>
+      <div class="col-lg-2 col-md-6 col-6">
+        <h5>Navigasi</h5>
+        <ul class="footer-links">
+          <li><a href="#beranda"><i class="bi bi-chevron-right"></i> Beranda</a></li>
+          <li><a href="#tentang"><i class="bi bi-chevron-right"></i> Tentang Kami</a></li>
+          <li><a href="#paket"><i class="bi bi-chevron-right"></i> Paket Umroh</a></li>
+          <li><a href="#paket-haji"><i class="bi bi-chevron-right"></i> Paket Haji</a></li>
+          <li><a href="#galeri"><i class="bi bi-chevron-right"></i> Galeri</a></li>
+          <li><a href="#faq"><i class="bi bi-chevron-right"></i> FAQ</a></li>
+        </ul>
       </div>
-      <div class="col-6 col-lg-2">
-        <h6>Bantuan</h6>
-        <div class="d-flex flex-column gap-2">
-          <a href="#faq">FAQ</a>
-          <a href="#testimoni">Testimoni</a>
-          <a href="#kontak">Kontak</a>
-        </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <h5>Layanan</h5>
+        <ul class="footer-links">
+          <li><a href="#paket"><i class="bi bi-chevron-right"></i> Umroh Reguler</a></li>
+          <li><a href="#paket"><i class="bi bi-chevron-right"></i> Umroh Ramadhan</a></li>
+          <li><a href="#paket"><i class="bi bi-chevron-right"></i> Umroh Plus</a></li>
+          <li><a href="#paket-haji"><i class="bi bi-chevron-right"></i> Paket Haji</a></li>
+          <li><a href="#why"><i class="bi bi-chevron-right"></i> Pembekalan Manasik</a></li>
+          <li><a href="#kontak"><i class="bi bi-chevron-right"></i> Konsultasi Gratis</a></li>
+        </ul>
       </div>
-      <div class="col-lg-4">
-        <h6>Kontak</h6>
-        <p style="font-size:.85rem;" class="mb-2"><i class="bi bi-geo-alt me-2 text-gold"></i>Malang, Jawa Timur, Indonesia</p>
-        <p style="font-size:.85rem;" class="mb-2"><i class="bi bi-whatsapp me-2 text-gold"></i>+62 812-3456-7890</p>
-        <p style="font-size:.85rem;" class="mb-0"><i class="bi bi-envelope me-2 text-gold"></i>info@mahyaatour.com</p>
+      <div class="col-lg-3 col-md-6">
+        <h5>Kontak Kami</h5>
+        <ul class="footer-contact">
+          <li><i class="bi bi-geo-alt-fill"></i> Jl. Haji Agus Salim No. 88, Jakarta Pusat, Indonesia 10110</li>
+          <li><i class="bi bi-telephone-fill"></i> +62 21 1234 5678</li>
+          <li><i class="bi bi-whatsapp"></i> +62 812 3456 7890</li>
+          <li><i class="bi bi-envelope-fill"></i> info@mahyaatour.com</li>
+          <li><i class="bi bi-clock-fill"></i> Senin–Sabtu: 09.00–18.00 WIB</li>
+        </ul>
       </div>
     </div>
-    <div class="footer-bottom text-center pt-4 mt-4">
-      &copy; 2026 Mahyaa Tour &amp; Travel. Seluruh hak cipta dilindungi.
+    <div class="footer-bottom text-center">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-md-start">
+          © <span id="currentYear">2024</span> MAHYAA Tour &amp; Travel. All rights reserved.
+        </div>
+        <div class="col-md-6 text-md-end">
+          Terdaftar di Kementerian Agama RI • IATA Certified
+        </div>
+      </div>
     </div>
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- ====== Bootstrap JS Bundle ====== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- ====== Custom JS ====== -->
 <script src="assets/js/main.js"></script>
+
 </body>
 </html>
